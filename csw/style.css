@@ -1,0 +1,40 @@
+body{
+        background-color: #00fbff;
+}
+.multicolor-text {
+            text-align: center;
+            font-size: 50px;
+            background: linear-gradient(to left,
+                    rgb(0, 0, 0),
+                    indigo,
+                    blue,
+                    green,
+                    orange,
+                    rgb(191, 255, 0));
+            -webkit-background-clip: text;
+            color: transparent;
+            border-style: groove;
+            border-color: rgb(241, 2, 186);
+            border-width: 7px;
+            background-color: #bbff02;
+            animation-name: slidein;
+            animation-duration: 5s;
+            /* transition-timing-function: linear; */
+            animation-iteration-count: infinite;
+            text-decoration: none;
+            
+        }
+
+        @keyframes slidein {
+                from {
+                  margin-left: 100%;
+                  width: 0%;
+                }
+              
+                to {
+                  margin-left: 1%;
+                  width: 90%;
+                }
+        }
+
+        
