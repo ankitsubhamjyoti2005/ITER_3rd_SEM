@@ -7,10 +7,21 @@
 </head>
 <body>
     <h2>image mapping</h2>
-    <image src ="https://cdn.britannica.com/85/94185-050-B3B95F6F/view-Pentagon-Arlington-Va.jpg" alt="main" usemap = "#shapemap" width="714"></image>
+    <image src ="https://cdn.britannica.com/85/94185-050-B3B95F6F/view-Pentagon-Arlington-Va.jpg" alt="main" usemap = "#shapemap" width=""></image>
     <map name="#shapemap">
-        <area  shape="poly" coords="290,341,42,670,880,865,1480,544,1026,280" alt="pentagon" href="https://cdn.britannica.com/85/94185-050-B3B95F6F/view-Pentagon-Arlington-Va.jpg">
+        <area  shape="poly" coords="290,341,42,670,880,865,1480,544,1026,280" alt="pentagon" href="https://cdn.britannica.com/85/94185-050-B3B95F6F/view-Pentagon-Arlington-Va.jpg" onclick="myfunc()">
         
         </map>
+
+        <script>
+            function myfunc(){
+                let person = prompt("Please enter your name");
+                if(person=="aditya"){
+                alert(person + " teri aukad sa bahar ha")
+                }else{
+                    alert("welcome")
+                }
+            }
+        </script>
 </body>
 </html>
