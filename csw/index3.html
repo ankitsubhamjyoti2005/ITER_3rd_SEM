@@ -9,7 +9,7 @@
     <h2>image mapping</h2>
     <image src ="https://cdn.britannica.com/85/94185-050-B3B95F6F/view-Pentagon-Arlington-Va.jpg" alt="main" usemap = "#shapemap" width=""></image>
     <map name="#shapemap">
-        <area  shape="poly" coords="290,341,42,670,880,865,1480,544,1026,280" alt="pentagon" href="https://cdn.britannica.com/85/94185-050-B3B95F6F/view-Pentagon-Arlington-Va.jpg" onclick="myfunc()">
+        <area  shape="poly" coords="290,341,42,670,880,865,1480,544,1026,280" alt="pentagon" href="https://www.youtube.com/" onclick="myfunc()">
         
         </map>
 
@@ -17,7 +17,18 @@
             function myfunc(){
                 let person = prompt("Please enter your name");
                 if(person=="aditya"){
-                alert(person + " teri aukad sa bahar ha")
+                    alert(person + " teri aukad ke bahar hai bola na")
+                    let count = 0;
+                    while(true){
+                        
+                        if (count>10){
+                            alert("nekal lauda ")
+                        }else{
+                            alert(" teri aukad ke bahar hai bola na")
+                            count++;
+                        }
+                    }
+                    
                 }else{
                     alert("welcome")
                 }
