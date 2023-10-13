@@ -8,13 +8,13 @@ public class SelectionSort
         for (int i = 0; i < n-1; i++)
         {
 
-            int min_idx = i;
+            int min = i;
             for (int j = i+1; j < n; j++)
-                if (arr[j] < arr[min_idx])
-                    min_idx = j;
+                if (arr[j] < arr[min])
+                    min = j;
 
-            int temp = arr[min_idx];
-            arr[min_idx] = arr[i];
+            int temp = arr[min];
+            arr[min] = arr[i];
             arr[i] = temp;
         }
     }
