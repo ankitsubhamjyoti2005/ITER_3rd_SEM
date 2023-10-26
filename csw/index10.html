@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>19/10/2023</title>
     <style>
         #myder{
@@ -23,6 +24,15 @@
             color: seagreen;
             padding: left;
         }
+        .fade-in-image {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 100; }
+}
+
     </style>
 </head>
 <body>
@@ -43,5 +53,8 @@
     <h3>this is chapter-6</h3>
     <h3 id="c7">this is chapter-5</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/6PVOJ8uNwwI?si=xelP9ozskoXwjorI" title="YouTube video player"  allowfullscreen></iframe>
+    <div class="fade-in-image">
+        <img src="https://source.unsplash.com/fk4tiMlDFF0/800x600/" >
+     </div>
 </body>
 </html>
