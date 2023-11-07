@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery_06/11/23</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#B1").click(function () {
+                $("p:first").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#b2").click(function () {
+                $("ul li:first").hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>this is header h1</h1>
+    <h2>this is header h2</h2>
+    <p>this is a paragraph</p>
+    <p>this is another para</p>
+    <button id="B1">don't click me</button>
+
+    <p>This is first list</p>
+    <ul>
+        <li>Milk</li>
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+    <p>list 2</p>
+    <ul>
+        <li>Milk2</li>
+        <li>Coffee2</li>
+        <li>Tea2</li>
+    </ul>
+    <button id="b2">CLICK ME</button>
+</body>
+
+</html>
