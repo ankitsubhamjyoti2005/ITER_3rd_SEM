@@ -30,9 +30,9 @@ class Solution {
         int n = a.length;
 
         if (checkPair(a, n))
-            System.out.println("Yes");
+            System.out.println("Yes , present");
         else
-            System.out.println("No");
+            System.out.println("No, not-present");
 
     }
 }
