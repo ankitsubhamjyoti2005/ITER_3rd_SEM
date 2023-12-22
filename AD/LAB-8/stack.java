@@ -1,10 +1,15 @@
-package ITER_3rd_SEM.AD.LAB-8;
-
 import java.util.*;
 
 public class STACK {
     public static void main(String[] args) {
+        Stack obj= new Stack();
 
+        obj.push(11);
+        obj.push(22);
+        obj.push(33);
+        obj.push(44);
+
+        obj.display();
     }
 
     class Stack {
